@@ -5,7 +5,7 @@ import { useNavigation } from "@react-navigation/native";
 import {
   UserIcon,
   ChevronDownIcon,
-  SearchIcon,
+  MagnifyingGlassIcon,
   AdjustmentsVerticalIcon,
 } from "react-native-heroicons/outline";
 
@@ -39,7 +39,9 @@ export default function HomeScreen() {
       </View>
       {/* Search */}
       <View>
-        <View></View>
+        <View>
+          <MagnifyingGlassIcon color="#00CCBB" />
+        </View>
         <AdjustmentsVerticalIcon color="#00CCBB" /> 
       </View>
     </SafeAreaView>
