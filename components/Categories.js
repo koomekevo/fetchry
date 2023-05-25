@@ -5,7 +5,7 @@ const Categories = () => {
   return (
     <ScrollView horizontal >
       {/* CategoryCard */}
-      <Text>Categories Hello</Text>
+      <Text>Category Hello</Text>
     </ScrollView>
   );
 };
