@@ -13,8 +13,9 @@ const Categories = () => {
       showsHorizontalScrollIndicator={false}
     >
       {/* CategoryCard */}
-      <CategoryCard />
-      
+      <CategoryCard imgUrl="https://links.papareact.com/wru" title="Testing" />
+      <CategoryCard imgUrl="https://links.papareact.com/wru" />
+      <CategoryCard imgUrl="https://links.papareact.com/wru" />    
     </ScrollView>
   );
 };
