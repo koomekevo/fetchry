@@ -3,9 +3,16 @@ import React from "react";
 
 const Categories = () => {
   return (
-    <ScrollView horizontal >
+    <ScrollView
+      contentContainerStyle={{
+        paddingHorizontal: 15,
+        paddingTop: 10,
+      }}
+      horizontal
+      showsHorizontalScrollIndicator={false}
+    >
       {/* CategoryCard */}
-      <Text>Category Hello</Text>
+      
     </ScrollView>
   );
 };
