@@ -1,11 +1,12 @@
-import React from 'react'
+import React from "react";
+import { View, Text } from "react-native";
 
 const CategoryCard = () => {
   return (
-    <div>
-      
-    </div>
-  )
-}
+    <View>
+      <Text>CategoryCard</Text>
+    </View>
+  );
+};
 
-export default CategoryCard
+export default CategoryCard;
