@@ -3,9 +3,14 @@ import { View, Text } from "react-native";
 
 const CategoryCard = () => {
   return (
-    <View>
+    <ScrollView
+    contentContainerStyle={{
+    }}
+    horizontal
+    showsHorizontalScrollIndicator={false}
+    >
       <Text>CategoryCard</Text>
-    </View>
+    </ScrollView>
   );
 };
 
