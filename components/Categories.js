@@ -1,5 +1,6 @@
 import { View, Text, ScrollView } from "react-native";
 import React from "react";
+import CategoryCard from "./CategoryCard";
 
 const Categories = () => {
   return (
@@ -12,6 +13,7 @@ const Categories = () => {
       showsHorizontalScrollIndicator={false}
     >
       {/* CategoryCard */}
+      <CategoryCard />
       
     </ScrollView>
   );
